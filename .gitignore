@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Production build outputs
+dist/
+.wrangler/
+tsconfig.tsbuildinfo
+
+# Private configurations & credentials
+# Use wrangler.example.jsonc as template for public repository
+wrangler.jsonc
+!wrangler.example.jsonc
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+*.local
+*.secret
+
+# Logs & temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+scratch/
+tmp/
+promo/
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+

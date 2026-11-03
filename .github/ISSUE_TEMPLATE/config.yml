@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Kebijakan Keamanan
+    url: https://github.com/rizalahmaddd/open-house/blob/main/SECURITY.md
+    about: Laporkan celah keamanan secara rahasia dan aman.
+

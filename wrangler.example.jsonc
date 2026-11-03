@@ -1,0 +1,44 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "openhouse",
+  // Uncomment and fill with your Cloudflare Account ID if needed
+  // "account_id": "<your-cloudflare-account-id>",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2025-02-14",
+  // Uncomment to route to your own custom domain
+  // "routes": [
+  //   {
+  //     "pattern": "openhouse.example.com",
+  //     "custom_domain": true
+  //   },
+  //   {
+  //     "pattern": "www.openhouse.example.com",
+  //     "custom_domain": true
+  //   }
+  // ],
+  "assets": {
+    "not_found_handling": "single-page-application",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "openhouse-db",
+      "database_id": "<your-d1-database-id>",
+      "migrations_dir": "drizzle/migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "openhouse-storage"
+    }
+  ],
+  "triggers": {
+    "crons": ["0 1 * * *"]
+  }
+}
+

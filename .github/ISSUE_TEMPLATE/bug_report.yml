@@ -1,0 +1,33 @@
+name: Laporan Bug
+description: Laporkan masalah atau error yang Anda temukan di OpenHouse
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Terima kasih sudah meluangkan waktu melaporkan bug! Untuk celah keamanan, mohon ikuti panduan di [SECURITY.md](https://github.com/rizalahmaddd/open-house/blob/main/SECURITY.md).
+  - type: textarea
+    id: deskripsi
+    attributes:
+      label: Deskripsi Masalah
+      description: Jelaskan apa yang terjadi dan apa yang seharusnya diharapkan.
+    validations:
+      required: true
+  - type: textarea
+    id: langkah
+    attributes:
+      label: Langkah untuk Mereproduksi
+      description: Tuliskan langkah berurutan agar kami bisa mereproduksi bug tersebut.
+      placeholder: |
+        1. Buka halaman '...'
+        2. Klik tombol '...'
+        3. Lihat pesan error '...'
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Perangkat & Browser
+      placeholder: Contoh: iPhone 14 (Safari iOS 17) atau macOS (Chrome 122)
+    validations:
+      required: false
+

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192" fill="none">
+  <!-- Deep Forest Emerald App Squircle -->
+  <rect width="192" height="192" rx="44" fill="#084732"/>
+
+  <!-- Outer & Inner Dual Kos Roofline (Crisp Cream White) -->
+  <path
+    d="M32 82L80 46L96 58L85 66L80 62L48 86V138H62V88L104 57L154 94V82L106 46L117 38L166 75V96H140V84L104 57"
+    fill="#F5F6F2"
+  />
+  <path
+    d="M36 79L80 46L95 57.5L85.5 64.5L80 60.5L48 84.5V136H62V88L104 56.5L154 94V78L105 41.5L114.5 34.5L166 73V98H142V85L104 56.5L74 79V148H36V79Z"
+    fill="#F5F6F2"
+  />
+  <!-- Bottom Right White Frame Corner -->
+  <path
+    d="M142 126L154 134V148H124V136H142V126Z"
+    fill="#F5F6F2"
+  />
+
+  <!-- Golden Arched Door + Horizontal Key Blade -->
+  <path
+    d="M78 106C78 94.9543 86.9543 86 98 86C109.046 86 118 94.9543 118 106V106H156L165 115L155 125H150L147 120H141L135 126L129 120L123 126H118V148H78V106Z"
+    fill="#EBA011"
+  />
+
+  <!-- Keyhole Cutout inside the Arched Door -->
+  <circle cx="98" cy="110" r="8.5" fill="#084732"/>
+  <path d="M93.5 115L90.5 135H105.5L102.5 115H93.5Z" fill="#084732"/>
+</svg>

@@ -1,0 +1,19 @@
+name: Usulan Fitur
+description: Usulkan ide atau fitur baru untuk OpenHouse
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: masalah
+    attributes:
+      label: Masalah Apa yang Ingin Diselesaikan?
+      description: Jelaskan kendala nyata yang Anda atau pemilik kos alami saat ini.
+    validations:
+      required: true
+  - type: textarea
+    id: solusi
+    attributes:
+      label: Solusi yang Diusulkan
+      description: Jelaskan bagaimana fitur ini seharusnya bekerja.
+    validations:
+      required: true
+
